@@ -8,10 +8,10 @@ public class TestingintegrationApplication {
 	
 	public void addData(String data) {
 		
-		System.out.println("Thsi is a demo of git");
+		//System.out.println("Thsi is a demo of git");
 		
-		if (data.equals("Java ")) {
-			System.out.println("This is inside if statement");
+		if (data.equals(VariableConstants.DATA_INPUT)) {
+			System.out.println("data is same as " + VariableConstants.DATA_INPUT);
 		}
 	}
 
